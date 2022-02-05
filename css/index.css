@@ -688,6 +688,30 @@ body {
         width: 100%;
         background-size: cover;
     }
+    .image .picture .overlay {
+        width: 100%; height: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, .7);
+        opacity: 0;
+        transition: .5s;
+    }
+    .image .picture .overlay img {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .image .picture .overlay h3 {
+        position: absolute;
+        top: 63%; left: 50%;
+        transform: translate(-50%,-50%);
+        color: var(--first-color);
+        font-family: var(--eng-font);
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .image .picture:hover .overlay {
+        opacity: 1;
+    } 
     
     .story {
         padding: 0 30px;
@@ -1131,7 +1155,32 @@ body {
         background: url(../img/business_img03.jpg) no-repeat center center;
         width: 100%;
     }
-    
+    .image .picture .overlay {
+        width: 100%; height: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, .7);
+        opacity: 0;
+        transition: .5s;
+    }
+    .image .picture .overlay img {
+        position: absolute;
+        width: 30px;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .image .picture .overlay h3 {
+        position: absolute;
+        top: 65%; left: 50%;
+        transform: translate(-50%,-50%);
+        color: var(--first-color);
+        font-family: var(--eng-font);
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .image .picture:hover .overlay {
+        opacity: 1;
+    } 
+
     .story {
         padding: 0;
         height: auto;
