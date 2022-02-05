@@ -1,0 +1,534 @@
+@media all and (min-width: 1024px) {
+.banner {
+    position: relative;
+    background: url(../img/prcenter/bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%; height: 400px;
+}
+
+.banner_txt {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, 60%);
+}
+.banner_txt h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.top {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding: 120px 0 250px 0;
+}
+.category {
+    position: absolute;
+    right: 0; top: 0;
+    margin: 20px 0;
+}
+.category ul {
+    display: flex;
+    align-items: center;
+}
+.category ul li {
+    padding: 0 5px;
+    font-size: .95rem;
+}
+.category ul li:nth-child(2) {
+    background: url(../img/menu_bar.png) no-repeat center center;
+    background-size: contain;
+    width: 14px; height: 14px;
+    padding-right: 10px;
+}
+.category ul li a {
+    color: #555;
+}
+
+.top_container {
+    position: relative;
+}
+
+.top_txt {
+    width: 690px;
+}
+.top_txt h1 {
+    font-size: 30px;
+    color: #555;
+    padding-bottom: 40px;
+    line-height: 45px;
+}
+.top_txt h1:after {
+    content: '';
+    position: absolute;
+    top: 80%; left: 0;
+    width: 5%; height: 10%;
+    border-bottom: 2px solid var(--first-color);
+}
+.top_txt p {
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+.top_logo {
+    position: absolute;
+    right: 0; top: 0;
+    transform: (-50%, -50%);
+    padding: 0 80px;
+    width: 360px; height: 200px;
+    background: url(../img/prcenter/logo.png) no-repeat;
+}
+
+
+.middle {
+    position: relative;
+    background: url(../img/prcenter/bg2.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%; height: 480px;
+}
+
+.middle_cont { width: 100%; }
+.middle_cont img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%; left: 35%;
+}
+.middle_txt  {
+    width: 75%;
+    float: right;
+    margin-top: 175px;
+    text-align: center;
+}
+.middle_txt h3 {
+    color: #fff;
+    font-size: 22px;
+}
+.middle_txt h2 {
+    padding: 15px 0;
+    font-size: 40px;
+    font-family: var(--eng-font);
+    color: var(--first-color);
+    font-weight: 400;
+}
+.middle_txt p {
+    width: 580px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+
+.bottom {
+    width: 90%;
+    margin: 0 auto;
+    padding: 120px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_box {
+    margin-right: 20px;
+}
+
+.bottom_txt {}
+.bottom_txt h3 {
+    position: relative;
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.bottom_txt h3:after {
+    content: '';
+    position: absolute;
+    top: 80%; left: 0;
+    width: 11%; height: 10%;
+    border-bottom: 3px solid var(--first-color);
+}
+.bottom_txt p {
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+
+.bottom_img {
+    background-size: cover;
+    width: 380px; height: 225px;
+    margin-top: 20px;
+}
+.one {
+    background: url(../img/prcenter/content_img1.jpg) no-repeat center center;
+}
+.two {
+    background: url(../img/prcenter/content_img2.jpg) no-repeat center center;
+}
+.three {
+    background: url(../img/prcenter/content_img3.jpg) no-repeat center center;
+}
+
+}
+
+
+/*--------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .banner {
+        position: relative;
+        background: url(../img/prcenter/bg.jpg) no-repeat center center;
+        background-size: cover;
+        width: 100%; height: 400px;
+    }
+    
+    .banner_txt {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, 60%);
+    }
+    .banner_txt h1 {
+        font-size: 24px;
+        color: #fff;
+    }
+    
+    
+    .top {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        padding: 120px 0 250px 0;
+    }
+    .category {
+        position: absolute;
+        right: 0; top: 0;
+        margin: 20px 0;
+    }
+    .category ul {
+        display: flex;
+        align-items: center;
+    }
+    .category ul li {
+        padding: 0 5px;
+        font-size: .95rem;
+    }
+    .category ul li:nth-child(2) {
+        background: url(../img/menu_bar.png) no-repeat center center;
+        background-size: contain;
+        width: 14px; height: 14px;
+        padding-right: 10px;
+    }
+    .category ul li a {
+        color: #555;
+    }
+    
+    .top_container {
+        position: relative;
+    }
+    
+    .top_txt {
+        width: auto;
+    }
+    .top_txt h1 {
+        font-size: 28px;
+        color: #555;
+        padding-bottom: 50px;
+        line-height: 45px;
+    }
+    .top_txt h1:after {
+        content: '';
+        position: absolute;
+        top: 80%; left: 0;
+        width: 5%; height: 10%;
+        border-bottom: 2px solid var(--first-color);
+    }
+    .top_txt p {
+        float: left;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 80px;
+    }
+    .top_logo {
+        position: absolute;
+        right: 0; top: 0;
+        transform: translate(-10%, 50%);
+        width: 100px; height: 100px;
+        background: url(../img/prcenter/logo.png) no-repeat center center;
+        background-size: cover;
+    }
+    
+    
+    .middle {
+        position: relative;
+        background: url(../img/prcenter/bg2.jpg) no-repeat center center;
+        background-size: cover;
+        width: 100%; height: 600px;
+    }
+    
+    .middle_cont {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .middle_cont img {
+        position: absolute;
+        transform: translate(-50%, -100%);
+        top: 50%; left: 50%;
+    }
+    .middle_txt  {
+        position: absolute;
+        transform: translate(-65%, 20%);
+        top: 50%; left: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    .middle_txt h3 {
+        color: #fff;
+        font-size: 22px;
+    }
+    .middle_txt h2 {
+        padding: 15px 0;
+        font-size: 40px;
+        font-family: var(--eng-font);
+        color: var(--first-color);
+        font-weight: 400;
+    }
+    .middle_txt p {
+        width: 60%;
+        color: #fff;
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0 auto;
+    }
+    
+    
+    .bottom {
+        width: 90%;
+        margin: 0 auto;
+        padding: 120px 0;
+        display: flex;
+    }
+    
+    .bottom_box {
+        margin-right: 20px;
+    }
+    
+    .bottom_txt {}
+    .bottom_txt h3 {
+        position: relative;
+        font-size: 22px;
+        color: #555;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .bottom_txt h3:after {
+        content: '';
+        position: absolute;
+        top: 80%; left: 0;
+        width: 11%; height: 10%;
+        border-bottom: 3px solid var(--first-color);
+    }
+    .bottom_txt p {
+        font-size: 14px;
+        color: #000;
+        line-height: 20px;
+    }
+    
+    .bottom_img {
+        background-size: cover;
+        width: 100%; height: 180px;
+        margin-top: 20px;
+    }
+    .one {
+        background: url(../img/prcenter/content_img1.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .two {
+        background: url(../img/prcenter/content_img2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .three {
+        background: url(../img/prcenter/content_img3.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .banner {
+        position: relative;
+        background: url(../img/prcenter/bg.jpg) no-repeat center center;
+        background-size: cover;
+        width: 100%; height: 300px;
+    }
+    
+    .banner_txt {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, 150%);
+    }
+    .banner_txt h1 {
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    
+    .top {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        padding: 80px 0 250px 0;
+    }
+    .category {
+        display: none;
+        position: absolute;
+        right: 0; top: 0;
+        margin: 20px 0;
+    }
+    .category ul {
+        display: flex;
+        align-items: center;
+    }
+    .category ul li {
+        padding: 0 5px;
+        font-size: .95rem;
+    }
+    .category ul li:nth-child(2) {
+        background: url(../img/menu_bar.png) no-repeat center center;
+        background-size: contain;
+        width: 14px; height: 14px;
+        padding-right: 10px;
+    }
+    .category ul li a {
+        color: #555;
+    }
+    
+    .top_container {
+        position: relative;
+    }
+    
+    .top_txt {
+        width: auto;
+    }
+    .top_txt h1 {
+        font-size: 24px;
+        color: #555;
+        padding-bottom: 50px;
+        line-height: 45px;
+    }
+    .top_txt h1:after {
+        content: '';
+        position: absolute;
+        top: 80%; left: 0;
+        width: 9%; height: 10%;
+        border-bottom: 2px solid var(--first-color);
+    }
+    .top_txt p {
+        float: left;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 40px;
+    }
+    .top_logo {
+        position: absolute;
+        right: 50%; top: 50%;
+        transform: translate(50%, 30%);
+        width: 200px; height: 200px;
+        background: url(../img/prcenter/logo.png) no-repeat center center;
+        background-size: cover;
+        opacity: .5;
+    }
+    
+    
+    .middle {
+        position: relative;
+        background: url(../img/prcenter/bg2.jpg) no-repeat center center;
+        background-size: cover;
+        width: 100%; height: 640px;
+    }
+    
+    .middle_cont {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .middle_cont img {
+        position: absolute;
+        transform: translate(-50%, -130%);
+        top: 50%; left: 50%;
+        width: 299px;
+    }
+    .middle_txt  {
+        position: absolute;
+        transform: translate(-50%, -30%);
+        top: 50%; left: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    .middle_txt h3 {
+        color: #fff;
+        font-size: 22px;
+    }
+    .middle_txt h2 {
+        padding: 15px 0;
+        font-size: 40px;
+        font-family: var(--eng-font);
+        color: var(--first-color);
+        font-weight: 400;
+    }
+    .middle_txt p {
+        width: 90%;
+        color: #fff;
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0 auto;
+    }
+    
+    
+    .bottom {
+        width: 90%;
+        margin: 0 auto;
+        padding: 80px 0;
+        display: block;
+    }
+    
+    .bottom_box {
+        margin-right: 20px;
+    }
+    
+    .bottom_txt {}
+    .bottom_txt h3 {
+        position: relative;
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .bottom_txt h3:after {
+        content: '';
+        position: absolute;
+        top: 80%; left: 0;
+        width: 6%; height: 10%;
+        border-bottom: 3px solid var(--first-color);
+    }
+    .bottom_txt p {
+        font-size: 14px;
+        color: #000;
+        line-height: 20px;
+    }
+    
+    .bottom_img {
+        background-size: cover;
+        width: 100%; height: 180px;
+        margin: 20px 0 40px;
+    }
+    .one {
+        background: url(../img/prcenter/content_img1.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .two {
+        background: url(../img/prcenter/content_img2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .three {
+        background: url(../img/prcenter/content_img3.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}
