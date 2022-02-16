@@ -103,24 +103,13 @@ body {
     z-index: 1;
 }
 .slide_play .btn_box {
-    position: relative;
-}
-.slide_play .btn_box a {
-    position: absolute;
-    display: block;
-    width: 36px; height: 36px;
-    margin: 1.5px;
-    background-size: cover;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 .slide_play .btn_box .pause {
     background: url(../img/btn_stop.png) no-repeat;
     z-index: 1;
-}
-.slide_play .btn_box .pause.active{
-    background: url(../img/btn_play.png) no-repeat;
-}
-.slide_play .btn_box .play {
-    background: url(../img/btn_play.png) no-repeat;
 }
 
 

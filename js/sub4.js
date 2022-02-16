@@ -1,5 +1,5 @@
-var dropDown = document.querySelectorAll(".cont_box");
-var dropDownBody = document.querySelector(".content ul");
+const dropDown = document.querySelectorAll(".cont_box");
+const dropDownBody = document.querySelector(".content ul");
 
 dropDown.forEach(dropDown => {
     dropDown.addEventListener("click", event => {
