@@ -153,16 +153,22 @@ var dropMenu = document.querySelector(".drop_menu");
 var openMenu = document.querySelector(".hamburger");
 var closeMenu = document.querySelector(".close_btn");
 
-openMenu.addEventListener('click',show);
-closeMenu.addEventListener('click',close);
-
 function show(e){
+    // 버튼 클릭 시 새로고침 방지
     e.preventDefault();
+    // 메뉴창 높이 기본값으로
     dropMenu.style.top = '0';
 }
+
 function close(){
+    // 메뉴창 높이 내려오게
     dropMenu.style.top = '-500px';
 }
+
+// 햄버거 버튼을 누르면 보여주기
+openMenu.addEventListener('click', show);
+// 닫기 버튼을 누르면 숨기기
+closeMenu.addEventListener('click', close);
 
 
 /*=============FOOTER==============*/
@@ -202,11 +208,14 @@ footerSpace.innerHTML = footerCont;
 
 
 /*=============FOOTER_ FAMILY SITE==============*/
-let click = document.querySelector(".family_site");
-let appear = document.querySelector(".family_body");
+let click = document.querySelector('.family_site');
+let appear = document.querySelector('.family_body');
 
+// 버튼 클릭 시
 click.addEventListener('click', () => {
+    // 팝업 이미지 디폴트 상태면 (숨김상태)
     if(appear.style.display === 'none'){
+        // 나타내기
         appear.style.display = 'block';
     }else{
         appear.style.display= 'none';
@@ -214,10 +223,10 @@ click.addEventListener('click', () => {
 })
 
 /*=============SCROLL TOP==============*/
-var scrollTopBtn = document.querySelector("#top_btn");
+const scrollTopBtn = document.querySelector('#top_btn');
 
-scrollTopBtn.addEventListener("click", function(){
-    $("html, body").animate({ scrollTop: 0}, "slow");
+scrollTopBtn.addEventListener('click', () => {
+    $("html, body").animate({ scrollTop: 0}, 'slow');
 });
 
 
