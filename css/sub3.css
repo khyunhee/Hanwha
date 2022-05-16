@@ -123,12 +123,13 @@
 .bottom {
     width: 90%;
     margin: 0 auto;
-    padding: 120px 250px;
+    padding: 120px 0;
     display: flex;
     justify-content: space-between;
 }
 
 .bottom_box {
+    width: 80%;
     margin-right: 20px;
 }
 
@@ -148,6 +149,7 @@
     border-bottom: 3px solid var(--first-color);
 }
 .bottom_txt p {
+    word-break: keep-all;
     font-size: 14px;
     color: #000;
     line-height: 20px;
